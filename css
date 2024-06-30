@@ -1,0 +1,112 @@
+/*COLORS #EEE5E9 #92DCE5 #52DEE5 #7C7C7C #383D3B*/
+
+
+body {
+    background-color: white;
+  }
+  
+
+h1{
+    color: #383D3B;
+    text-align:center;
+    font-size:100px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    overflow: hidden; /* Hide the cursor animation */
+}
+
+
+h2 {
+    background-color: #92DCE5;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;              /* Use Flexbox */
+    align-items: center;        /* Center items vertically */
+    justify-content: center;    /* Center items horizontally */
+}
+
+h3{
+    color:#383D3B;
+    font-family: "Lato",sans-serif;
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+  
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+.left{
+    margin-left:100px;
+    margin-right:800px;
+}
+
+.right{
+    margin-left:800px;
+    margin-right:100px;
+}
+
+.centertext{
+    margin-left:400px;
+    margin-right:400px;
+}
+
+.centerimg{
+    text-align:center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #7C7C7C;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.footer {
+    background-color: #383D3B;
+    text-align: center;
+    color: white;
+    padding: 25px;
+  }
+
